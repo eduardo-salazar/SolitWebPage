@@ -48,7 +48,7 @@ public class SaveProposalSevlet extends HttpServlet {
 
 	    public void doPost(HttpServletRequest req, HttpServletResponse resp)
 	                throws IOException {
-	    	resp.sendRedirect(req.getRequestURL().reverse().replace(0, 4, "").reverse().toString());
+	    	resp.sendRedirect(req.getRequestURL().reverse().replace(0, 12, "").reverse().toString());
 	    	
 	    	//Crear Objeto Proposal 
 	    	Proposal p=new Proposal();
