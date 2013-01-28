@@ -272,6 +272,7 @@ iframe {
 {
 	height:70%;
 	padding-top:10px;
+	border-radius:0.5em;
 }
 
 #intereses article figcaption
